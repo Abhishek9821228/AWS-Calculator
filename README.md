@@ -16,7 +16,8 @@ AWS services used
 - DynamoDB
 - IAM
 
-![App Screenshot](https://d1.awsstatic.com/diagrams/Serverless_Architecture.d930970c77b382db6e0395198aacccd8a27fefb7.png)
+![artitecture](https://github.com/Abhishek9821228/AWS-Calculator/assets/135989734/3a661877-c375-4074-965d-11b14ef73a2a)
+
 
 # Step 1 - Hosting a static Website using AWS amplify
 
@@ -29,7 +30,7 @@ In this step, I used AWS to deploy the website without Git and Codecommit.
 
 In this step we completed the website hosting using Amplify.
 
-![App Screenshot](https://d1.awsstatic.com/diagrams/Amplify_Wild_Rydes.1760839c5336d01cd6ac6eabb5d2ad8a37c3304a.png)
+![1](https://github.com/Abhishek9821228/AWS-Calculator/assets/135989734/2c902b37-7637-4da6-a79c-5f6eaf9e5a9b)
 
 
 # Step 2 - Now Create a AWS Lambda function.
@@ -41,7 +42,9 @@ In this step, I created Lambda function which will be getting invoked by users o
     3. Test the function.
 
 
-![App Screenshot](https://d1.awsstatic.com/Test%20Images/Kate%20Test%20Images/Serverless_Web_App_LP_assets-03.1403870f0fabeb6a11d3e4116092aa6b19b6a924.png)
+![2](https://github.com/Abhishek9821228/AWS-Calculator/assets/135989734/100fa2de-f7fb-4b48-b957-03e4765bce14)
+
+![lambda](https://github.com/Abhishek9821228/AWS-Calculator/assets/135989734/35e2c649-825b-4450-a357-4ba2db1c36fa)
 
 
 # Step 3 - Create DynamoDb and connect Lambda and DynamoDB by giving lambda the permission from IAM console.
@@ -55,7 +58,15 @@ In this step, I use AWS Lambda and Amazon DynamoDB to build a backend process fo
     5. Now create a lambda function that gets trigged when a API call is made from frontend.
 
 
-![App Screenshot](https://d1.awsstatic.com/Test%20Images/Kate%20Test%20Images/Serverless_Web_App_LP_assets_04.76030d61413ff43bd6aa75fbd16e02ad23aec67a.png)
+![3](https://github.com/Abhishek9821228/AWS-Calculator/assets/135989734/93e9fe44-3d60-4530-bfc9-9cda97ecd1e5)
+
+
+![dynamo](https://github.com/Abhishek9821228/AWS-Calculator/assets/135989734/529d2d89-2b74-45dc-9ccd-91fcc7576d49)
+
+
+![larole](https://github.com/Abhishek9821228/AWS-Calculator/assets/135989734/b76171f7-6f9e-4e8d-9c20-4bf07786615d)
+
+
 
 
 # Step 4 - Creating API Gateway.
@@ -72,17 +83,22 @@ In this step, I use Amazon API Gateway to expose the Lambda function I built in 
 
 
 
-![App Screenshot](https://d1.awsstatic.com/Test%20Images/Kate%20Test%20Images/Serverless_Web_App_LP_assets_05.d1ecdfaab160d7dc00ddbc9e0245fa34b8d8f26b.png)
+![3](https://github.com/Abhishek9821228/AWS-Calculator/assets/135989734/93e9fe44-3d60-4530-bfc9-9cda97ecd1e5)
 
-# Step 4 - Integrating API Gateway with frontend.
+![image](https://github.com/Abhishek9821228/AWS-Calculator/assets/135989734/5b7cc589-28e8-4a00-8552-c724478ab45b)
+
+# Step 5 - Integrating API Gateway with frontend.
 
 In this step, we will create a API call function in frontend using JavaScript so that the when user click on calculate button the the lambda function can get invoked using API.
 
     1. Create a Call API fucntion.
     2. Use the API that get generate from API Gateway creation.
-
+    
+![5](https://github.com/Abhishek9821228/AWS-Calculator/assets/135989734/720976e5-0722-411b-83cc-40d63d637c9c)
 
 Now the full web application is completed. 
+
+
 
 ## conclusion
 
